@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_BBC">
+
+    <fragment
+        android:id="@+id/nav_BBC"
+        android:name="com.example.sonitv.My_Fragments.BBC"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_bbc" />
+
+    <fragment
+        android:id="@+id/nav_MTv"
+        android:name="com.example.sonitv.My_Fragments.MTv"
+        android:label="@string/mtv"
+        tools:layout="@layout/fragment_mtv" />
+
+    <fragment
+        android:id="@+id/nav_animalPlanet"
+        android:name="com.example.sonitv.My_Fragments.AnimalPlanet"
+        android:label="@string/animal_planet"
+        tools:layout="@layout/fragment_animal_planet" />
+
+    <fragment
+        android:id="@+id/nav_cartoon_network"
+        android:name="com.example.sonitv.My_Fragments.Cartoon_Network"
+        android:label="@string/cartoon_network"
+        tools:layout="@layout/fragment_cartoon_network" />
+
+    <fragment
+        android:id="@+id/nav_discovery"
+        android:name="com.example.sonitv.My_Fragments.Discovery"
+        android:label="@string/discovery"
+        tools:layout="@layout/fragment_discovery" />
+
+    <fragment
+        android:id="@+id/nav_fox_news"
+        android:name="com.example.sonitv.My_Fragments.Fox_News"
+        android:label="@string/fox_news"
+        tools:layout="@layout/fragment_fox_news" />
+
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    <item-->
+<!--        android:title="Top Rated Channels">-->
+
+<!--        <menu>-->
+
+        <item
+            android:id="@+id/nav_BBC"
+            android:icon="@drawable/bbc"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_MTv"
+            android:icon="@drawable/mtv"
+            android:title="@string/mtv"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_animalPlanet"
+            android:icon="@drawable/animal_planet"
+            android:title="@string/animal_planet"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_fox_news"
+            android:icon="@drawable/fox"
+            android:title="@string/fox_news"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_discovery"
+            android:icon="@drawable/discovery"
+            android:title="@string/discovery"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_cartoon_network"
+            android:icon="@drawable/cartoon_network"
+            android:title="@string/cartoon_network"
+            android:menuCategory="secondary"/>
+
+<!--        </menu>-->
+<!--</item>-->
+
+</menu>
